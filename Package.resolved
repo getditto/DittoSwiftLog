@@ -1,5 +1,4 @@
 {
-  "originHash" : "c954dd2680a9378efaf3b30504ec0a3734cff2e84827ae612015805ecaca44f3",
   "pins" : [
     {
       "identity" : "dittoswiftpackage",
@@ -20,5 +19,5 @@
       }
     }
   ],
-  "version" : 3
+  "version" : 2
 }

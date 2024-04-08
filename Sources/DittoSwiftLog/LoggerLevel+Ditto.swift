@@ -5,7 +5,7 @@ import Logging
 import DittoSwift
 
 /// Allows for easy conversion from `DittoSwift.DittoLogLevel` to `swift-log`'s `Logger.Level`
-extension Logger.Level {
+extension Logging.Logger.Level {
     init(dittoLevel: DittoSwift.DittoLogLevel) {
         switch dittoLevel {
         case .error:
