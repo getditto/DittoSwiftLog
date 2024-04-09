@@ -10,7 +10,7 @@ extension Logging.Logger {
     /// e.g. for some `Logger` `myLogger`: `DittoLogger.setCustomLogCallback(myLogger.dittoLoggerCallback(level:message:)`
     func dittoLoggerCallback(level: DittoSwift.DittoLogLevel, message: String) {
         let translatedLogLevel = Logging.Logger.Level(dittoLevel: level)
-        let message = Logging.Logger.Message(stringLiteral: message)
+        let message = Logging.Logger.Message(stringLiteral: "[DittoSDK] \(message)")
         log(level: translatedLogLevel, message)
     }
 }
