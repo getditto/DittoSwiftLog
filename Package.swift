@@ -13,7 +13,7 @@ let package = Package(
             targets: ["DittoSwiftLog"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/getditto/DittoSwiftPackage.git", .upToNextMajor(from: "4.0.0")),
+        .package(url: "https://github.com/getditto/DittoSwiftPackage.git", exact: "4.8.0-rc.1"),
         .package(url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
     ],
     targets: [
