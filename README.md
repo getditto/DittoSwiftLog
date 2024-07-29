@@ -1,4 +1,4 @@
-A sample implementation of how you could connect an external logging backend to [DittoSwiftPackage](https://github.com/getditto/DittoSwiftPackage)'s `DittoLogger` via the Custom Callback method. This sample bridges to Apple's [swift-log](https://github.com/apple/swift-log), allowing you to use any `swift-log` compatible backend.
+An implementation of how you could connect an external logging backend to [DittoSwiftPackage](https://github.com/getditto/DittoSwiftPackage)'s `DittoLogger` via the Custom Callback method. This sample bridges to Apple's [swift-log](https://github.com/apple/swift-log), allowing you to use any `swift-log` compatible backend.
 
 ## License (MIT)
 Copyright © 2024 Brian Plattenburg, DittoLive
